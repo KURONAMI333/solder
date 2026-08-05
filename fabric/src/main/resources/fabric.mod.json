@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/solder",
+        "sources": "https://github.com/KURONAMI333/solder",
+        "issues": "https://github.com/KURONAMI333/solder/issues"
+    },
+    "license": "${license}",
+    "icon": "${mod_id}.png",
+    "environment": "client",
+    "mixins": [
+        {
+            "config": "${mod_id}.fabric.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "minecraft": "${minecraft_version}",
+        "java": ">=${java_version}"
+    },
+    "recommends": {
+        "sodium": ">=0.6",
+        "iris": "*"
+    }
+}
