@@ -16,8 +16,20 @@ neoForge {
     }
 }
 
+// The equivalence test calls vanilla's sampler directly, so the test source set
+// needs the same Minecraft classes the mixins compile against.
+neoForge.addModdingDependenciesTo(sourceSets.test)
+
+tasks.named('test', Test) {
+    useJUnitPlatform()
+}
+
 dependencies {
     compileOnly "maven.modrinth:sodium:${sodium_neoforge}"
+    testImplementation "maven.modrinth:sodium:${sodium_neoforge}"
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     compileOnly group: 'org.spongepowered', name: 'mixin', version: '0.8.5'
     // fabric and neoforge both bundle mixinextras, so it is safe to use it in common
     compileOnly group: 'io.github.llamalad7', name: 'mixinextras-common', version: '0.3.5'
