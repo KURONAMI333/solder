@@ -78,7 +78,7 @@ Verified at startup on NeoForge with Sodium 0.6.13 + Iris 1.8.12, on Fabric with
 
 ## License & credits
 
-MIT. The fast path itself is Sodium's work — this mod only makes sure it runs. Sodium is by CaffeineMC, Iris by the Iris Shaders team.
+All Rights Reserved (free to put in any modpack, no permission or credit needed). The fast path itself is Sodium's work — this mod only makes sure it runs. Sodium is by CaffeineMC, Iris by the Iris Shaders team.
 
 ## Links
 
