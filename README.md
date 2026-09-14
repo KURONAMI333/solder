@@ -69,3 +69,11 @@ stays inert.
 Jars land in `neoforge/build/libs/` and `fabric/build/libs/`.
 
 Built from [MultiLoader-Template](https://github.com/jaredlll08/MultiLoader-Template).
+
+## Downloads and support
+
+Downloads: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/solder) · [GitHub Releases](https://github.com/KURONAMI333/solder/releases/tag/v1.0.0).
+
+For bugs and questions, comment on the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/solder) or DM [@kuronami333 on X](https://x.com/kuronami333).
+
+[Source](https://github.com/KURONAMI333/solder) · [License](LICENSE)

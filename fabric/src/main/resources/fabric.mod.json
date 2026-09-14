@@ -10,7 +10,7 @@
     "contact": {
         "homepage": "https://modrinth.com/mod/solder",
         "sources": "https://github.com/KURONAMI333/solder",
-        "issues": "https://github.com/KURONAMI333/solder/issues"
+        "issues": "https://x.com/kuronami333"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
