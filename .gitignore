@@ -24,5 +24,6 @@ run
 runs
 
 # handoff / gap log stay local
-_handoff
-GAP_LOG.md
+
+# dev run logs (written by Loom)
+logs/
